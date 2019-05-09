@@ -23,7 +23,9 @@
 }
 
 .product_watches {
-
+  @media all and (max-width: 1050px) {
+    height: 1750px;
+  }
 }
 
 .product__title {

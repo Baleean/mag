@@ -6,6 +6,7 @@
   grid-template-columns: minmax(300px, 512px) 512px;
   grid-template-rows: 760px;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 @media all and (max-width: 1300px) {
@@ -26,6 +27,12 @@
   font-style: normal;
   font-stretch: normal;
   line-height: 1;
+}
+
+@media all and (max-width: 1050px) {
+  .brands__description {
+    padding-left: 30px;
+  }
 }
 
 .brands__title {
@@ -290,6 +297,11 @@
   }
 }
 
+.button_form {
+  border: none;
+  background-image: linear-gradient(28deg, #8c84f9, #9c6cf5);
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -328,6 +340,127 @@ html, body {
   margin-left: 10px;
 }
 
+.newsletter {
+  max-width: 1600px;
+  min-width: 991px;
+  height: 492px;
+  background-image: linear-gradient(45deg, #8c84f9, #a165f4);
+}
+
+.newsletter_position {
+  margin-top: -80px;
+}
+
+@media all and (max-width: 1050px) {
+  .newsletter_position {
+    margin-top: 0;
+  }
+}
+
+.newsletter__bg {
+  text-transform: uppercase;
+  position: absolute;
+  font-family: Roboto;
+  font-size: 150px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 1.5px;
+  color: rgba(254, 254, 254, 0.04);
+  text-align: center;
+  margin: 105px auto;
+  width: 1600px;
+}
+
+@media all and (max-width: 1500px) {
+  .newsletter__bg {
+    width: 1400px;
+  }
+}
+
+@media all and (max-width: 1400px) {
+  .newsletter__bg {
+    width: 1300px;
+  }
+}
+
+@media all and (max-width: 1300px) {
+  .newsletter__bg {
+    width: 1200px;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .newsletter__bg {
+    width: 1100px;
+  }
+}
+
+@media all and (max-width: 1100px) {
+  .newsletter__bg {
+    width: 1000px;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .newsletter__bg {
+    width: 900px;
+    font-size: 120px;
+  }
+}
+
+.newsletter__text {
+  font-family: Open Sans;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.52;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 182px;
+}
+
+.newsletter__form {
+  width: 847px;
+  height: 71px;
+  background-color: #ffffff;
+  border-radius: 35px;
+  margin: 90px auto;
+}
+
+.newsletter__input {
+  border: none;
+  height: 60px;
+  width: 605px;
+  margin-left: 30px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 60px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #333333;
+}
+
+.newsletter__button {
+  margin: 5px;
+  width: 198px;
+  height: 60px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.3;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #fffefe;
+}
+
 .product {
   max-width: 1381px;
   min-width: 991px;
@@ -346,6 +479,12 @@ html, body {
   margin: 0 auto;
   position: relative;
   z-index: 2;
+}
+
+@media all and (max-width: 1050px) {
+  .product_watches {
+    height: 1750px;
+  }
 }
 
 .product__title {
