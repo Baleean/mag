@@ -10,6 +10,7 @@
   grid-template-columns: minmax(300px, 512px) 512px;
   grid-template-rows: 760px;
   justify-content: space-between;
+  overflow: hidden;
 
   @media all and (max-width: 1300px) {
     justify-content: space-around;
