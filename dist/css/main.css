@@ -302,6 +302,27 @@
   background-image: linear-gradient(28deg, #8c84f9, #9c6cf5);
 }
 
+.cellar {
+  height: 65px;
+  background-color: #f6f5f7;
+}
+
+.cellar_position {
+  margin-top: 50px;
+}
+
+.cellar__text {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 65px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #777777;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -310,6 +331,54 @@ html, body {
 .container {
   max-width: 1600px;
   min-width: 991px;
+  margin: 0 auto;
+}
+
+.footer {
+  height: 419px;
+}
+
+.footer__title {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222222;
+}
+
+.footer__links {
+  width: 530px;
+  margin: 0 auto;
+}
+
+.footer__list {
+  display: grid;
+  grid-template-columns: repeat(6, 88.3px);
+}
+
+.footer__list-item {
+  list-style: none;
+  justify-self: center;
+}
+
+.footer__link {
+  text-decoration: none;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #404040;
+}
+
+.footer__social {
   margin: 0 auto;
 }
 
@@ -647,6 +716,31 @@ html, body {
   .product__buttons-watches {
     width: 900px;
   }
+}
+
+.social {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 32px;
+  width: 310px;
+}
+
+.social__item {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  border: solid 2px #ecebed;
+}
+
+.social__item:hover {
+  background-image: linear-gradient(27deg, #8c84f9, #9b6df5 99%);
+  color: #ffffff;
+}
+
+.social__element {
+  line-height: 53px;
+  text-align: center;
+  margin-left: 20px;
 }
 
 .text-span_black {

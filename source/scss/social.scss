@@ -1,0 +1,24 @@
+.social {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 32px;
+  width: 310px;
+}
+
+.social__item {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  border: solid 2px #ecebed;
+
+  &:hover {
+    background-image: linear-gradient(27deg, #8c84f9, #9b6df5 99%);
+    color: #ffffff;
+  }
+}
+
+.social__element {
+  line-height: 53px;
+  text-align: center;
+  margin-left: 20px;
+}

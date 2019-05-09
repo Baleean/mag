@@ -1,0 +1,47 @@
+.footer {
+  height: 419px;
+}
+
+.footer__title {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222222;
+}
+
+.footer__links {
+  width: 530px;
+  margin: 0 auto;
+}
+
+.footer__list {
+  display: grid;
+  grid-template-columns: repeat(6, 88.3px);
+}
+
+.footer__list-item {
+  list-style: none;
+  justify-self: center;
+}
+
+.footer__link {
+  text-decoration: none;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #404040;
+}
+
+.footer__social {
+  margin: 0 auto;
+}
