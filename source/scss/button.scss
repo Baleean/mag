@@ -52,6 +52,29 @@
   text-transform: capitalize;
 }
 
+.button__text_complex-watches {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 66px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #333333;
+  margin: 0;
+
+  &:hover {
+    text-shadow: -2.3px 8.7px 5px rgba(213, 200, 247, 0.75);
+    font-family: OpenSans;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    color: #b394fa;
+  }
+}
+
 .button_add {
   margin: 41px auto 0 auto;
   width: 202px;
@@ -61,5 +84,14 @@
 
 .button__text_white {
   color: #ffffff;
+}
+
+.button_watches-complex {
+  margin-left: 120px;
+  margin-right: 120px;
+  grid-template-columns: repeat(6, 160px);
+  justify-content: center;
+  cursor: pointer;
+
 }
 

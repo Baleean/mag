@@ -1,0 +1,30 @@
+.iphone {
+
+}
+
+.iphone__circle {
+  background: url("../img/brands/Layer_18.png");
+  width: 500px;
+  height: 500px;
+  z-index: 2;
+  margin-left: 67px;
+  margin-top: 2px;
+}
+
+.iphone__circle-inside {
+  position: absolute;
+  width: 301px;
+  height: 301px;
+  border-radius: 50%;
+  background: white;
+  z-index: 3;
+  margin-top: 91px;
+  margin-left: 95px;
+}
+
+.iphone__image {
+  position: absolute;
+  z-index: 4;
+  margin-top: -387px;
+  margin-left: 10px;
+}

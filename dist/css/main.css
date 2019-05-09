@@ -1,3 +1,64 @@
+.brands__container {
+  max-width: 1170px;
+  min-width: 991px;
+  margin: 36px auto;
+  display: grid;
+  grid-template-columns: minmax(300px, 512px) 512px;
+  grid-template-rows: 760px;
+  justify-content: space-between;
+}
+
+@media all and (max-width: 1300px) {
+  .brands__container {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 1030px) {
+  .brands__container {
+    justify-content: space-between;
+  }
+}
+
+.brands__description {
+  font-family: Open Sans;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+}
+
+.brands__title {
+  font-size: 50px;
+  letter-spacing: 0.5px;
+  color: #333333;
+  margin: 252px 0 23px 0;
+}
+
+.brands__sub-title {
+  font-size: 25px;
+  line-height: 1.36;
+  letter-spacing: 0.3px;
+  color: #333333;
+  margin-top: 0;
+}
+
+.brands__sub-title_blue {
+  color: #8d83f9;
+}
+
+.brands__text {
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #888888;
+}
+
 .bunner {
   height: 1052px;
   background: url("../img/bunner/Shape_9.png"), url("../img/bunner/Pattern2.png"), url("../img/bunner/Layer_12.png") no-repeat;
@@ -181,6 +242,29 @@
   text-transform: capitalize;
 }
 
+.button__text_complex-watches {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 66px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #333333;
+  margin: 0;
+}
+
+.button__text_complex-watches:hover {
+  text-shadow: -2.3px 8.7px 5px rgba(213, 200, 247, 0.75);
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  color: #b394fa;
+}
+
 .button_add {
   margin: 41px auto 0 auto;
   width: 202px;
@@ -192,6 +276,14 @@
   color: #ffffff;
 }
 
+.button_watches-complex {
+  margin-left: 120px;
+  margin-right: 120px;
+  grid-template-columns: repeat(6, 160px);
+  justify-content: center;
+  cursor: pointer;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -201,6 +293,33 @@ html, body {
   max-width: 1600px;
   min-width: 991px;
   margin: 0 auto;
+}
+
+.iphone__circle {
+  background: url("../img/brands/Layer_18.png");
+  width: 500px;
+  height: 500px;
+  z-index: 2;
+  margin-left: 67px;
+  margin-top: 2px;
+}
+
+.iphone__circle-inside {
+  position: absolute;
+  width: 301px;
+  height: 301px;
+  border-radius: 50%;
+  background: white;
+  z-index: 3;
+  margin-top: 91px;
+  margin-left: 95px;
+}
+
+.iphone__image {
+  position: absolute;
+  z-index: 4;
+  margin-top: -387px;
+  margin-left: 10px;
 }
 
 .product {
@@ -217,6 +336,12 @@ html, body {
   z-index: 2;
 }
 
+.product_position-watches {
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
 .product__title {
   font-family: Open Sans;
   font-size: 50px;
@@ -229,6 +354,11 @@ html, body {
   color: #333333;
   margin: 0 auto 81px auto;
   padding-top: 102px;
+}
+
+.product__title_watches {
+  margin-top: 100px;
+  margin-bottom: 111px;
 }
 
 .product__content {
@@ -258,6 +388,10 @@ html, body {
   }
 }
 
+.product__content_watch {
+  grid-row-gap: 22px;
+}
+
 .product__item {
   justify-self: center;
   width: 352px;
@@ -285,6 +419,10 @@ html, body {
   display: block;
 }
 
+.product__item_watch {
+  height: 345px;
+}
+
 .product__article-title {
   font-family: Open Sans;
   font-size: 18px;
@@ -305,9 +443,14 @@ html, body {
   overflow: hidden;
 }
 
+.product__image-container_watch {
+  margin-bottom: 41px;
+}
+
 .product__image {
   display: block;
   margin: auto;
+  max-width: 100%;
 }
 
 .product__price {
@@ -347,6 +490,12 @@ html, body {
 
 .product__buttons {
   display: none;
+}
+
+.product__buttons-watches {
+  height: 66px;
+  width: 1105px;
+  margin: 0 auto;
 }
 
 .text-span_black {

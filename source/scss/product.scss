@@ -12,7 +12,17 @@
   z-index: 2;
 }
 
+.product_position-watches {
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
 .product_bags {
+
+}
+
+.product_watches {
 
 }
 
@@ -28,6 +38,11 @@
   color: #333333;
   margin: 0 auto 81px auto;
   padding-top: 102px;
+}
+
+.product__title_watches {
+  margin-top: 100px;
+  margin-bottom: 111px;
 }
 
 .product__content {
@@ -51,6 +66,10 @@
     grid-auto-rows: auto;
     justify-content: space-around;
   }
+}
+
+.product__content_watch {
+  grid-row-gap: 22px;
 }
 
 .product__item {
@@ -80,6 +99,10 @@
   }
 }
 
+.product__item_watch {
+  height: 345px;
+}
+
 .product__article-title {
   font-family: Open Sans;
   font-size: 18px;
@@ -100,9 +123,14 @@
   overflow: hidden;
 }
 
+.product__image-container_watch {
+  margin-bottom: 41px;
+}
+
 .product__image {
   display: block;
   margin: auto;
+  max-width: 100%;
 }
 
 .product__price {
@@ -142,4 +170,10 @@
 
 .product__buttons {
   display: none;
+}
+
+.product__buttons-watches {
+  height: 66px;
+  width: 1105px;
+  margin: 0 auto;
 }
