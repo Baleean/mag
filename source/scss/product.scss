@@ -176,4 +176,8 @@
   height: 66px;
   width: 1105px;
   margin: 0 auto;
+
+  @media all and (max-width: 1200px) {
+    width: 900px;
+  }
 }

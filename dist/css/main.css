@@ -284,6 +284,12 @@
   cursor: pointer;
 }
 
+@media all and (max-width: 1200px) {
+  .button_watches-complex {
+    grid-template-columns: repeat(6, 100px);
+  }
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -496,6 +502,12 @@ html, body {
   height: 66px;
   width: 1105px;
   margin: 0 auto;
+}
+
+@media all and (max-width: 1200px) {
+  .product__buttons-watches {
+    width: 900px;
+  }
 }
 
 .text-span_black {
