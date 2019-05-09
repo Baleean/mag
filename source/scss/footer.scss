@@ -1,5 +1,5 @@
 .footer {
-  height: 419px;
+
 }
 
 .footer__title {
@@ -12,11 +12,13 @@
   letter-spacing: normal;
   text-align: center;
   color: #222222;
+  margin: 0;
+  padding-top: 32px;
 }
 
 .footer__links {
   width: 530px;
-  margin: 0 auto;
+  margin: -12px auto 46px auto
 }
 
 .footer__list {
