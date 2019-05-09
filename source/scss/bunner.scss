@@ -7,6 +7,7 @@
   background-position: 0 0, 0 0, 0 58px;
   overflow: hidden;
   position: relative;
+  z-index: 1;
 
   @media all and (max-width: 1400px) {
     background-position: 0 0, 0 0, -100px 58px;
