@@ -264,7 +264,7 @@
 
 .button__text_complex-watches:hover {
   text-shadow: -2.3px 8.7px 5px rgba(213, 200, 247, 0.75);
-  font-family: OpenSans;
+  font-family: Open Sans;
   font-size: 20px;
   font-weight: 600;
   font-style: normal;
@@ -300,6 +300,16 @@
 .button_form {
   border: none;
   background-image: linear-gradient(28deg, #8c84f9, #9c6cf5);
+}
+
+.button__text_active {
+  text-shadow: -2.3px 8.7px 5px rgba(213, 200, 247, 0.75);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  color: #b394fa;
 }
 
 .cellar {
@@ -600,8 +610,13 @@ html, body {
   }
 }
 
-.product__content_watch {
+.product__content_block {
   grid-row-gap: 22px;
+  display: none;
+}
+
+.product__content_active {
+  display: grid;
 }
 
 .product__item {
@@ -631,7 +646,7 @@ html, body {
   display: block;
 }
 
-.product__item_watch {
+.product__item_block {
   height: 345px;
 }
 
