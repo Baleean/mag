@@ -25,6 +25,5 @@ function changeBlock (category) {
     removeClass('.product__content_active');
     let categoryName = ".product__content_" + category;
     let block = document.querySelector(categoryName);
-    console.log(block);
     block.classList.toggle('product__content_active');
 }
