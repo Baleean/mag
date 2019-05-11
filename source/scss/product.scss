@@ -70,8 +70,13 @@
   }
 }
 
-.product__content_watch {
+.product__content_block {
   grid-row-gap: 22px;
+  display: none;
+}
+
+.product__content_active {
+  display: grid;
 }
 
 .product__item {
@@ -101,7 +106,7 @@
   }
 }
 
-.product__item_watch {
+.product__item_block {
   height: 345px;
 }
 
